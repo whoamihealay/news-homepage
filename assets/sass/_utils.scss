@@ -1,0 +1,13 @@
+$extra-small: "375px";
+$small: "480px";
+$medium: "768px";
+$large: "1024px";
+$extra-large: "1440px";
+
+$xs: "screen and (min-width: #{$extra-small})";
+$sm: "screen and (min-width: #{$small})";
+$md: "screen and (min-width: #{$medium})";
+$l: "screen and (min-width: #{$large})";
+$xl: "screen and (min-width: #{$extra-large})";
+
+$sm-only: "screen and (max-width: #{$medium})";
